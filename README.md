@@ -28,11 +28,9 @@ It also has retry logic for failed sends.
 ## 🔧 Installation
 
 1. Clone the repository : git clone  
-
-```bash
-npm install : Install NODE
-mongod : Start mongoDB locally(default runs on this : mongodb://127.0.0.1:27017/notifications)
-npm start : Start the server (http://localhost:3000)
+2. npm install : Install NODE
+3. mongod : Start mongoDB locally(default runs on this : mongodb://127.0.0.1:27017/notifications)
+4. npm start : Start the server (http://localhost:3000)
 
 **Using HoppScotch.io , we can check for both the GET and POST request, which is working.**
     -->Select Method as "POST" and in Body Tab select application/json and then add the notification u want to send
